@@ -3,10 +3,10 @@ const ffmpeg = require('fluent-ffmpeg')
 ffmpeg.setFfmpegPath(ffmpegStatic)
 
 let inputPath = "video.mp4"
-const outputPath = "output_dash/output.mpd"
+const outputPath = "public/output_dash/output.mpd"
 
 const scaleOptions = [
-    "scale=720:480",
+    "scale=720:480"
 ]
 
 const videoCodec = "libx264"
